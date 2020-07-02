@@ -53,8 +53,6 @@ body {
 .btn {
     width: 337px;
     height: 69px;
-    border-radius: 5px;
-    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +60,8 @@ body {
     font-size: 18px;
     line-height: 22px;
     color: #fff;
+    border-radius: 5px;
+    border: none;
 }
 
 .btn--primary {
@@ -81,11 +81,11 @@ body {
 .btn__icon {
     width: 55px;
     height: 55px;
-    border-radius: 4px;
     margin-right: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
     background-color: #fff;
 }
 
@@ -136,10 +136,10 @@ body {
 .input-group__control {
     width: 337px;
     height: 69px;
-    border: 1px solid #d9dced;
-    border-radius: 5px;
     padding: 25px;
     font-size: 16px;
     line-height: 20px;
     color: var(--color-gray);
+    border: 1px solid #d9dced;
+    border-radius: 5px;
 }
