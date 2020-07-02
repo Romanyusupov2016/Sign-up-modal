@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Rockwell;
+    font-family: "Rockwell";
     src: url("../fonts/Rock.ttf");
 }
 
@@ -12,30 +12,26 @@
 }
 
 body {
-    background-color: #1f1c44;
     font-family: "Rockwell", serif;
+    background-color: #1f1c44;
 }
 
 .modal {
     width: 517px;
     height: 765px;
-    border-radius: 10px;
-    background-color: #fff;
-    margin: 15px auto;
     display: flex;
     justify-content: center;
-}
-
-.wrapper {
-    width: 337px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: #fff;
 }
 
 .modal__title {
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
     margin-top: 55px;
     margin-bottom: 65px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;  
 }
 
 .modal__text-bottom {
@@ -50,18 +46,22 @@ body {
     text-decoration: none;
 }
 
+.wrapper {
+    width: 337px;
+}
+
 .btn {
     width: 337px;
     height: 69px;
     border-radius: 5px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: inherit;
     font-size: 18px;
     line-height: 22px;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .btn--primary {
@@ -82,11 +82,11 @@ body {
     width: 55px;
     height: 55px;
     border-radius: 4px;
-    background-color: #fff;
     margin-right: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 
 .email-block {
@@ -94,15 +94,15 @@ body {
 }
 
 .email-block__title {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-gray);
-    margin-bottom: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .email-block__title::before {
@@ -128,9 +128,9 @@ body {
 }
 
 .input-group__label {
+    margin-bottom: 5px;
     font-size: 16px;
     line-height: 19px;
-    margin-bottom: 5px;
 }
 
 .input-group__control {
